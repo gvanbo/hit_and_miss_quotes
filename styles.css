@@ -279,7 +279,7 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
 }
 
 /* Media Query: Tablet or Smaller */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
     .quote-container {
         margin: auto 10px;
     }
