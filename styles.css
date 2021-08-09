@@ -26,22 +26,24 @@ body {
 section {
     flex-direction: column;
     justify-content: stretch;
-    height: 100vw;
+    height: 50vw;
     margin: 20px;
     padding: 5vw;
 }
 
 section#home {
-    background-color: rgba(0,0,0,0.2);  
+    background-color: rgba(0,0,0,0.2); 
+    border-radius: 80% 20% 78% 22% / 30% 65% 35% 70%; 
 }
 
 section#quotesApp {
-    background-color: var(--navColor1);
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-radius: 41% 59% 58% 42% / 20% 86% 14% 80%;
 }
 
 section#scrollApp {
     background-color: var(--navColor2);
-
+    border-radius: 41% 59% 26% 74% / 52% 44% 56% 48%;
 }
 
 a {
